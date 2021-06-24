@@ -1,0 +1,141 @@
+Hi all. I am Jan from TuringMachine team. Before we start the AMA, I want to thank all of you guys who asked us about the TuringMachine protocol.
+
+I will introduce a bit about TuringMachine so everyone can know about it.
+
+TuringMachine is A decentralized exchange for stablecoins that uses an automated market maker (AMM) to manage liquidity on BSC. It is running at here: https://turingmachine.network/ in beta mode.
+
+We will release the 1.0.0 version of TuringMachine at block  8600000. This version will be a big upgrade for TuringMachine beta.
+
+Binance Block Countdown
+Block countdown on the Binance blockchain.
+
+You can check the estimated date for block 8600000 at here https://bscscan.com/block/countdown/8600000
+
+Now I will go to answers our Community's questions one by one. We got 20 questions after 24 hours. All of it is very nice and helpful.
+
+1. If you have any new services in mind besides the stablecoin AMM and are you thinking about expanding Turingmachine to other chains in future?
+
+TuringMachine now has 3 sub-products. They are Turing Swap (Stablecoin AMM), Turing Farms, and Turing No-loss lottery pools. We will continually improve all of it, and yes, maybe in the future, we will have more Turing Products. We have not any plan to move Turing to other chains for now. BSC is a very new blockchain with many good features (Fully support Smart Contract - Solidity, Lower transaction fee, Binance Support, etc.), so there is no reason to expand. Still, everything can change in the future base on the community.
+
+----------------------------------------------------------
+Jan Bachmann / TuringMachine.Network, [Jun 24, 2021 at 14:49:48]:
+2. You said you will lower emissions. When do you expect all Turings will be mined? And what happens when all Turing are mined? Is it possible to to change to revenue sharing model?
+
+After the release of the Turing Swap (TuringMachine 1.0.0) version, TuringMachine is running in production mode, so we will update emissions on all pools to balance the speed of distribution. So everyone who helps with the protocol will be the owner of TuringMachine (get TURING token as the proof). As we wrote this page https://turingmachine.network/useturing.html: There are currently 0.05 TURING tokens minted per block, so approximately 1440 each day at 100% speed of mining. At this speed, we will need ~1.1 years to get all of TURING. When all TURING is mined, you will not get any TURING from Pools or Farms, and Turing Swap will do its job to burn TURING from its trading fee. Also, Farms or other Turing Products will do the same. We can update anything of TuringMachine of Community’s vote.
+
+----------------------------------------------------------
+
+3. Are we going to get DAO? When do you expect it to be live?
+
+Yes. You can check this page https://turingmachine.network/dao.html. We will work on DAO system after Turing Machine is fully running. We love how other fully DAO protocol works (Compoud, MakerDAO), etc, and how they are giving the value to the community, we will have not any DeFi without them, it is the main reason we created TURING MACHINE.
+
+----------------------------------------------------------
+
+4. What are the fees going to be for turing swap and on what blockchain? ETH, BSC, MATIC etc
+
+0.2% is the trading fee of Turing Swap, 16% of it (0.032%) will be using to buy TURING on the market (Pancakeswap for now) and burn, 4% of it(0.008%) will be SAFU contract to use for BUG BOUNTY Program, etc. TuringMachine will only work on BSC for now.
+
+----------------------------------------------------------
+
+5. What are some other competitors of TuringMachine, and why should people choose Turing services and not the services of other competitors?
+
+TuringMachine with the main product is Turing Swap (Stablecoin AMM) and Turing Farms (Yield Aggregator), Turing No-loss lottery, so we will have many competitors lol (Pancakeswap, Autofarm, etc.). But we will try to partner with any other good protocol on BSC, so basically, we have no competitors, lol. Turing Swap (our main product for now) will have its unique features compare with another protocol. For example, with Turing Swap, Liquidity Providers will not earn only from trading fees. The protocol is also supplied to Venus protocol or other DeFi pools to create more interest. The Turing Swap Contract will move the liquidity around to do both works (trading and farming).
+
+----------------------------------------------------------
+
+6. Is there do be a marketing plan and roadmap on release of v1?
+
+Here is what we will do after the release of TuringMachine 1.0.0:
+Do the first audit (Techrate).
+Partner with other protocols.
+Continue to work on Turing Swap pools (the first pool of Turing Swap is Turing Venus LP), and next, we will have Turing Cream LP.
+Host some trading events on Turing Swap.
+Create a new Bonus system to give more rewards to TURING holders.
+And more.
+
+----------------------------------------------------------
+
+7.  What stage of development will be a team dox (if any) and audit for security of the investors?
+ Check 6.
+
+----------------------------------------------------------
+
+8. How can the team attract sufficient liquidity for the stablecoin AMM?
+
+At TuringMachine 1.0.0, we will have our Turing LP pools running on Turing Swap. All the depositors will get TURING as a reward when supply stable coin for Turing Swap.
+
+----------------------------------------------------------
+
+9.  Any partnership coming?
+
+Yes, we are talking with some other teams. (Chainlink)
+
+----------------------------------------------------------
+
+10. Will the team dox anytime soon?
+
+We will keep our team anonymous until Turing is fully running and the DAO is working (we will transfer admin permission to DAO voting contract as we wrote on the DAO page https://turingmachine.network/dao.html).
+
+----------------------------------------------------------
+
+11. How can we attract more people in to this community?
+
+We will host some events (trading, farming, etc.)  with the fund from our TURING bag (it is in DevLockContract for now, check more about DevLockContract here https://turingmachine.network/useturing.html). Do audit, BUG BOUNTY, etc., to get the community's trust, so basically creating a good product that will bring the traffic is our main selling point. Any other help from the community is welcomed.
+
+12.  Any single asset pool coming?
+
+Yes. Working on it.
+
+----------------------------------------------------------
+
+13. Safety and security are always the most important things. So what is the security mechanism of TuringMachine to ensure user funds do not become the target of hackers?
+
+Correct, Security First is our main point when creating TuringMachine. To prevent (decrease the opportunity for attacking - flash loan) we created a Whitelist contract. Whitelist contract will be a firewall for the protocol. All other contracts which want to access (make an internal call) to TuringMachine Contract will need to be approved first. And we will work on the Audit and BUG BOUNTY Program to increase the performance of Turing’s source code.
+
+----------------------------------------------------------
+
+14. Marketing is a central element for every project, so that everyone knows the potential that a project can bring is vital to achieve the goals set. What is your strategy to attract new users and Investor to your project and keep them long term?
+
+We want to build a fully decentralized platform at TuringMachine for that applications and developers can rely on it forever, so the first thing we do to help the marketing is creating a good product (a real product has its value. For example, no need for a mining feature and still working) and build a strong community which everyone will have the same vision with the product. On another side, we will try to partner with other protocols to introduce TURING with more users on BSC.
+----------------------------------------------------------
+
+15.  Can you list 1-3 killer features of TuringMachine Network that makes it ahead of its competitors?
+What is the competitive advantage your platform has that you feel most confident about?
+
+- Turing Swap, Liquidity Providers will not earn only from trading fees. The protocol is also supplied to Venus protocol or other DeFi pools to create more interest. The Turing Swap Contract will move the liquidity around to do both works (trading and farming). And When you use Turing Swap to trade the assets, you'll automatically begin getting TURING from our Refund Pool.
+- Whitelist contract will be a firewall for the protocol. All other contracts which want to access (make an internal call) to TuringMachine Contract will need to be approved first 
+- Turing Farms and Turing No-loss.
+
+For now, from my view, it is our Turing Swap which is created the interest from both trading fees and interest from other DeFi protocol fees.
+
+----------------------------------------------------------
+
+16. Good projects always have an experienced team behind them. Can you tell us something about your team and their experience in the market?
+
+We started with Solidity 4 years ago (2017), moving from ETH to TRON and now BSC. Our team is a team in a Blockchain company, and TURING MACHINE is our love with Decentralized Governance application. We created a thousand lines of code in Solidity and researched a lot of Solidity source code (Compoud, Curve, etc.) but yes we are still learning now from everyone, we can work on the code but to make the product successful, it is all from the community.
+
+----------------------------------------------------------
+
+17. Can you talk about the future plan of TuringMachine Network? and How can the community contribute to the development of TuringMachine Network?
+
+Check at 6. We welcomed all of the Community to join our Github and help us with the development. If you can do the code, join us at Github. If you can do the marketing, please try to introduce Turing to more users (no spam, of course). If you can not do the code or marketing, try to use the protocol and give us feedback or bugs. If you have any ideas, please share them with the Community and the team.
+
+----------------------------------------------------------
+
+18. How did the idea for the project come about? How did you choose the name?
+
+When we found the BSC network, it is a nice blockchain network that supported Solidity (cheaper, faster compared with ETH) and backed by Binance, but when we tried to use it, we found it lacks many ideas. So we researched many Ethereum DeFi apps to combine all of them into one app that runs on BSC at a smoother speed. After a while, we had here now TuringMachine with 3 sub-products. At the time we started to learn about the blockchain, we got a concept about Turing Machine, which used to build all core of blockchain network. It is a machine that will reward anyone who helps it run to process a job (math), a very cool idea, so we picked this name to build our TURING MACHINE version.
+
+----------------------------------------------------------
+
+19. For a project development first of all main priority is having enough fund. Does your team financially capable to run this project? Do you have enough fund for it's developement Can you tell us that how your project generate the profit?
+
+As I said above, Turing Machine is our love with how decentralized applications work and develop. We are a team in a blockchain company, so basically, we have enough resources to do the development. But of course, we are working hard here (15 hours a day and only relax on Sunday). 10% of all TURING mints will go to DevLockContract. From that point, we had 10% shares of the Turing protocol. Turing Swap will use 16% of the trading fee to buy and burn TURING to increase the TURING value over time (increase the value of our shares).
+
+----------------------------------------------------------
+
+20. What happens when you run out of money? How will TuringMachine Network create revenue other than minting tokens?
+
+The best of a decentralized application is you only need to do it once. Zero server cost. The UI  is running on Github pages for free, and anyone can download the UI to run it on your local. So what happens when we run out of money? We just let it run without any issues. We will move our admin permission to the DAO contract, so at that time, the community will control and run/build the protocol. Without us, Turing Machine will run forever on blockchain to do its job. Turing Swap, Turing Farms will buy TURING with its profit then burn to increase TURING token value (create revenue for all community).
+
+----------------------------------------------------------

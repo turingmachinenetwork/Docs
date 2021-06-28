@@ -1,0 +1,12 @@
+The TuringMachine 1.0.0 is live now.
+So here is the detail of Distribution Speed on Turing Farms and Turing No-loss:
+
+1. TURING-BNB farm: 10x
+2. CAKE-BNB farm:   0.5x
+3. CAKE farm:       1.5x
+4. BTCB-BNB farm:   0.5x
+5. ETH-BNB farm:    0.5x
+6. USDT-BUSD farm:  0x
+7. USDT-BNB farm:   0x
+8. BUSD-BNB farm:   0x
+10. CAKE No-loss:   0.5x

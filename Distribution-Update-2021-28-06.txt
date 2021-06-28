@@ -1,4 +1,4 @@
-The TuringMachine 1.0.0 is live now.
+The TuringMachine 1.0.0 is out now.
 So here is the detail of Distribution Speed on Turing Farms and Turing No-loss:
 
 1. TURING-BNB farm: 10x

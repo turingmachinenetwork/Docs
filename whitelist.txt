@@ -1,0 +1,4 @@
+To access the TuringMachine protocol contract, please follow this guide:
+
+1. Make a call from your contract to the "requestAccess" function in our Whitelist contract at https://bscscan.com/address/0x7cF3248085245f4167Cb4f348b692B88F48663C1#writeContract
+2. Your contract must be verified.
